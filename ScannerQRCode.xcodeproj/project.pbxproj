@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		00DC521622AE723B00670C84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DC521522AE723B00670C84 /* AppDelegate.swift */; };
-		00DC521822AE723B00670C84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DC521722AE723B00670C84 /* ViewController.swift */; };
-		00DC521B22AE723B00670C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DC521922AE723B00670C84 /* Main.storyboard */; };
+		00DC521822AE723B00670C84 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DC521722AE723B00670C84 /* ScannerViewController.swift */; };
 		00DC521D22AE723F00670C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DC521C22AE723F00670C84 /* Assets.xcassets */; };
 		00DC522022AE723F00670C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DC521E22AE723F00670C84 /* LaunchScreen.storyboard */; };
+		00DC524822AE754C00670C84 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DC524722AE754C00670C84 /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00DC521222AE723B00670C84 /* ScannerQRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScannerQRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DC521522AE723B00670C84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00DC521722AE723B00670C84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		00DC521A22AE723B00670C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00DC521722AE723B00670C84 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		00DC521C22AE723F00670C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00DC521F22AE723F00670C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00DC522122AE723F00670C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00DC524722AE754C00670C84 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +54,9 @@
 		00DC521422AE723B00670C84 /* ScannerQRCode */ = {
 			isa = PBXGroup;
 			children = (
+				00DC524722AE754C00670C84 /* ScannerView.swift */,
 				00DC521522AE723B00670C84 /* AppDelegate.swift */,
-				00DC521722AE723B00670C84 /* ViewController.swift */,
-				00DC521922AE723B00670C84 /* Main.storyboard */,
+				00DC521722AE723B00670C84 /* ScannerViewController.swift */,
 				00DC521C22AE723F00670C84 /* Assets.xcassets */,
 				00DC521E22AE723F00670C84 /* LaunchScreen.storyboard */,
 				00DC522122AE723F00670C84 /* Info.plist */,
@@ -124,7 +124,6 @@
 			files = (
 				00DC522022AE723F00670C84 /* LaunchScreen.storyboard in Resources */,
 				00DC521D22AE723F00670C84 /* Assets.xcassets in Resources */,
-				00DC521B22AE723B00670C84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +134,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00DC521822AE723B00670C84 /* ViewController.swift in Sources */,
+				00DC524822AE754C00670C84 /* ScannerView.swift in Sources */,
+				00DC521822AE723B00670C84 /* ScannerViewController.swift in Sources */,
 				00DC521622AE723B00670C84 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		00DC521922AE723B00670C84 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00DC521A22AE723B00670C84 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		00DC521E22AE723F00670C84 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
