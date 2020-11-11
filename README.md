@@ -11,9 +11,9 @@ This 100% code app is the result of my studies using AVFoundation to capture a s
 
 ## Pictures
 
-<img src="oooo" width=300>
-<img src="oooo" width=300>
+<img src="https://github.com/inaldor/ScannerQRCode/blob/master/app-images/askforaut.PNG" width=300>
+<img src="https://github.com/inaldor/ScannerQRCode/blob/master/app-images/capturesession.PNG" width=300>
 
 ## License
 
-This project is licensed under the [MIT License](oooo)
+This project is licensed under the [MIT License](https://github.com/inaldor/ScannerQRCode/blob/master/LICENSE)
